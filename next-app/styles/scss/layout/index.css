@@ -1,0 +1,5 @@
+.demo {
+  @apply text-3xl text-blue-500 hover:text-red-500;
+}
+
+/*# sourceMappingURL=index.css.map */
