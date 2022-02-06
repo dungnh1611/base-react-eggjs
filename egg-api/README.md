@@ -1,6 +1,6 @@
-# eggjs
+# egg-api
 
-eggjs backend 
+backend eggjs
 
 ## QuickStart
 

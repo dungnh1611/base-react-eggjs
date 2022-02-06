@@ -1,14 +1,20 @@
 {
-  "name": "eggjs",
+  "name": "egg-api",
   "version": "1.0.0",
-  "description": "eggjs backend ",
+  "description": "backend eggjs",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "egg": "^2.15.1",
-    "egg-scripts": "^2.11.0"
+    "egg-bcrypt": "^1.1.0",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-mongoose": "^3.3.1",
+    "egg-scripts": "^2.11.0",
+    "egg-validate": "^2.0.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -23,9 +29,9 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-eggjs",
-    "stop": "egg-scripts stop --title=egg-server-eggjs",
-    "dev": "egg-bin dev --port 8080",
+    "start": "egg-scripts start --daemon --title=egg-server-egg-api",
+    "stop": "egg-scripts stop --title=egg-server-egg-api",
+    "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
